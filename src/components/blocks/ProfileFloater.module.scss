@@ -1,18 +1,29 @@
 .profile-floater{
-    background-color: rgba(0, 0, 0, 0.63);
-    height: 40vh;
-    width: 20vw;
+    background-color: rgb(0, 0, 0);
+    height: 15rem;
+    width: 10rem;
     position: absolute;
     right: 0;
     transition: ease height 0.2s;
 }
 
 .profile-floater-hidden{
-    background-color: rgba(0, 0, 0, 0.63);
-    height: 0;
-    width: 20vw;
+    background-color: rgb(0, 0, 0);
+    height: 0rem;
+    width: 10rem;
     position: absolute;
     right: 0;
     overflow: hidden;
     transition: ease height 0.2s;
+}
+
+.pf-item{
+    flex-grow: 1;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    color: rgb(185, 185, 185);
+}
+
+.pf-item:hover{
+    color: white;
 }

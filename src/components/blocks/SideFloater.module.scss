@@ -22,14 +22,21 @@
 }
 
 .close-button{
-    background-color: black;
+    padding: 0 1rem 0 1rem;
     border-radius: 0;
-    color: white;
-    padding: 0.25rem;
+    border: none;
+    background-color: #cecece;
+}
+
+.close-button:hover{
+    background-color: #9e9c9c;
 }
 
 .header-title{
-    padding: 0.25rem;
-    background-color: aliceblue;
+    padding: 0.75rem;
+    font-size: 12pt;
+    background-color: #ededed;
+    color: #000000;
     flex-grow: 1;
+    font-weight: 500;
 }

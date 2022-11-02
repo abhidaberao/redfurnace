@@ -1,7 +1,7 @@
 import style from "./ProfileFloater.module.scss";
 
 const Item = () => {
-    return <div>item</div>
+    return <div className={style['pf-item']}>item</div>
 }
 
 const ProfileFLoater = (props:any) => {
