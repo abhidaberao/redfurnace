@@ -51,13 +51,17 @@ const OffersSection = () => {
 
     const offerCards = () => {
         return searchAndFilter(offers).map((o:any,index:number) => <Card
-        content={
+
+        header={
         <div>
             <div>OrderId: {o.orderId}</div>
             <div>Client: {o.clientId}</div>
             <div>Status: {o.orderStatus}</div>
         </div>
         }
+
+        body={'hello'}
+
         key={index}
         />);
     }

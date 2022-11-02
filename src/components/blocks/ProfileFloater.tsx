@@ -1,15 +1,14 @@
 import style from "./ProfileFloater.module.scss";
 
-const Item = () => {
-    return <div className={style['pf-item']}>item</div>
+const Item = (props:any) => {
+    return <div className={style['pf-item']}>{props.name}</div>
 }
 
 const ProfileFLoater = (props:any) => {
         return <div className={style[props.show?'profile-floater':'profile-floater-hidden']}>
             {props.show?<div>
-                <Item/>
-                <Item/>
-                <Item/>
+                <Item name="Profile"/>
+                <Item name="Logout"/>
             </div>:null}
         </div>
 }

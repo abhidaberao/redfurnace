@@ -2,4 +2,21 @@
     background-color: white;
     padding: 1rem;
     margin-top: 1rem;
+    border-radius: 5px;
+}
+
+.card:hover{
+    background-color: rgb(228, 228, 228);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-body{
+    background-color: antiquewhite;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    border-radius: 5px;
 }
